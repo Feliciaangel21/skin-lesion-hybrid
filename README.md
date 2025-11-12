@@ -37,12 +37,11 @@ For segmentation, **U-Net** was used for two-stage preprocessing, while **U-Net+
 
 Two forms of lesion masking were compared:
 
-1. **Hard Masking** – complete removal of background pixels outside the lesion boundary.
-2. **Soft Masking** – contextual blending to preserve peripheral information using the transformation:
-   [
-   \text{masked} = \text{image} \times (\text{mask} \times 0.7 + 0.3)
-   ]
-   These strategies were designed to evaluate whether removing non-lesion regions improves classifier focus or inadvertently discards valuable spatial cues.
+1. **Hard Masking** – Complete removal of background pixels outside the lesion boundary.
+
+2. **Soft Masking** – Contextual blending to preserve peripheral information using the transformation:
+
+
 
 ### D. Model Pruning
 
