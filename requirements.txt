@@ -1,0 +1,26 @@
+# Core dependencies
+python>=3.10
+numpy==1.26.4
+pandas==2.2.2
+scikit-learn==1.5.1
+
+# Deep learning and computer vision
+torch==2.3.1
+torchvision==0.18.1
+torchaudio==2.3.1
+
+# Image processing
+Pillow==10.4.0
+opencv-python==4.10.0.84
+tqdm==4.66.5
+
+# Plotting and visualization
+matplotlib==3.9.2
+seaborn==0.13.2
+
+# Optional for segmentation experiments
+albumentations==1.4.4
+
+# Optional for notebook execution
+jupyterlab==4.2.4
+ipykernel==6.29.4
